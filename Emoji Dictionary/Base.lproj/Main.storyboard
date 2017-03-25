@@ -21,17 +21,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7rF-ws-zan">
-                                <rect key="frame" x="0.0" y="28" width="375" height="639"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="X78-cm-3Yo">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7rF-ws-zan" secondAttribute="bottom" constant="270" id="98h-u6-aoI"/>
-                            <constraint firstAttribute="trailing" secondItem="7rF-ws-zan" secondAttribute="trailing" constant="68" id="M6h-Uh-8r4"/>
-                            <constraint firstItem="7rF-ws-zan" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="249" id="WaP-RK-6mX"/>
-                            <constraint firstItem="7rF-ws-zan" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="67" id="YL9-2l-rTM"/>
+                            <constraint firstItem="X78-cm-3Yo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="71V-ZS-QhU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="X78-cm-3Yo" secondAttribute="bottom" id="DHM-z9-ctZ"/>
+                            <constraint firstItem="X78-cm-3Yo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uKW-ul-L2d"/>
+                            <constraint firstAttribute="trailing" secondItem="X78-cm-3Yo" secondAttribute="trailing" id="xFH-r4-8IE"/>
                         </constraints>
                     </view>
                 </viewController>
