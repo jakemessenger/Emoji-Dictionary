@@ -13,6 +13,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var emojiTable: UITableView!
+
     
     // create the Array called "emojis"
     
@@ -32,11 +33,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        print(indexPath.row)
         let cell = UITableViewCell()
         // fill the positions in the table view with the corresponding positions in the array
         cell.textLabel?.text = emojis[indexPath.row]
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "moveSeque", sender: "🤡")
     }
 
     override func didReceiveMemoryWarning() {
