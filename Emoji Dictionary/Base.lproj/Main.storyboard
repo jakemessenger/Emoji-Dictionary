@@ -34,6 +34,9 @@
                             <constraint firstAttribute="trailing" secondItem="X78-cm-3Yo" secondAttribute="trailing" id="xFH-r4-8IE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emojiTable" destination="X78-cm-3Yo" id="rJJ-u8-BgL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
